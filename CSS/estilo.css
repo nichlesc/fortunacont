@@ -145,7 +145,7 @@ body {
   }
   .services a {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     text-decoration: none;
   }
   .conteiner {
@@ -159,7 +159,7 @@ body {
   .menu a {
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
     padding-right: 30px;
   }
