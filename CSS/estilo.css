@@ -132,16 +132,20 @@ body {
 
 @media screen and (max-width: 1020px) {
   .uperbanner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
   }
-  .uperbanner a {
-    font-size: 16px;
-    text-decoration: none;
+  .uperbanner .ub_esquerda {
+    padding-left: 10px;
   }
-  .uperbanner img {
-    max-width: 70%;
-    max-height: 50%;
+  .whatsappdiv {
+    padding-right: 10px;
+  }
+  .uperbanner .ub_direita a {
+    padding-left: 10px;
+  }
+  .linktexto {
+    display: none;
   }
   .services a {
     font-weight: bold;
@@ -150,16 +154,12 @@ body {
   }
   .conteiner {
     display: block;
-    background-color: rgba(41, 2, 2, 0.2);
   }
   .menu {
     text-align: center;
   }
   .menu a {
-    color: white;
-    font-weight: bold;
     font-size: 15px;
-    text-decoration: none;
     padding-right: 30px;
   }
   .imglogo {
