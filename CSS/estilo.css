@@ -104,7 +104,8 @@ body {
   text-decoration: none;
 }
 .box_service {
-  border: 1px solid black;
+  margin: 5px;
+  padding: 3px;
 }
 .services_red {
   background-color: rgba(41, 2, 2, 0.6);
@@ -139,7 +140,7 @@ body {
     text-decoration: none;
   }
   .uperbanner img {
-    max-width: 50%;
+    max-width: 70%;
     max-height: 50%;
   }
   .services a {
@@ -147,8 +148,20 @@ body {
     font-size: 12px;
     text-decoration: none;
   }
-  .logo {
-    border: solid;
+  .conteiner {
+    display: block;
+    background-color: rgba(41, 2, 2, 0.2);
+  }
+  .menu {
+    text-align: center;
+    border: 1px solid rgba(41, 2, 2, 0);
+  }
+  .menu a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    padding-right: 30px;
   }
   .imglogo {
     top: 0;
